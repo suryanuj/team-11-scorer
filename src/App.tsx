@@ -15,12 +15,14 @@ function App(): JSX.Element {
                 Edit <code>src/App.tsx</code> and save. This page will
                 automatically reload.
                 <p>Welcome!</p>
+                {count1}
+                <br></br>
                 <Button onClick={() => setCount1(1 + count1)}>Add One</Button>
-                to {count1}.
                 <Button onClick={() => setCount1(count1 - 1)}>
                     Subtract One
                 </Button>
-                to {count1}.
+                <br></br>
+                <br></br>
                 <Button onClick={() => setCount2(2 + count2)}>Add Two</Button>
                 to {count2}.
                 <Button onClick={() => setCount3(3 + count3)}>Add Three</Button>

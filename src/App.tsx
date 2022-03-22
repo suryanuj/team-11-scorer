@@ -12,7 +12,7 @@ function App(): JSX.Element {
             <div>
                 Edit <code>src/App.tsx</code> and save. This page will
                 automatically reload.
-                <p>Welcome!</p>
+                <p>Welcome!!</p>
                 {count1}
                 <br></br>
                 <Counter val={1} hook={[count1, setCount1]}></Counter>
